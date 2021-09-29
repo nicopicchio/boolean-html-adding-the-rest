@@ -23,7 +23,7 @@
 
 .header {
     max-width: 1024px;
-    margin: auto;
+    margin: 0 auto;
     grid-area: header;
     display: grid;
     grid-template:
