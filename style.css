@@ -182,3 +182,16 @@
     150px 1fr 150px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .feed {
+    width: 770px;
+    grid-template:
+    'left-column middle' calc(100vh - 90px) /
+    200px 1fr;
+    }
+    
+    .right-column {
+        display: none;
+    }
+}
