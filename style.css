@@ -10,8 +10,8 @@
 }
 
 .feed {
-    max-width: 1024px;
-    margin: auto;
+    width: 1024px;
+    margin: 0 auto;
     display: grid;
     grid-template:
     'left-column middle right-column' calc(100vh - 90px) /
@@ -172,4 +172,13 @@
 
 .main-status1 {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .feed {
+    width: 900px;
+    grid-template:
+    'left-column middle right-column' calc(100vh - 90px) /
+    150px 1fr 150px;
+    }
 }
